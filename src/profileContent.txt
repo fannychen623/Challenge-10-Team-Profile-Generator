@@ -1,0 +1,39 @@
+<div class="col-4">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body text-white bg-primary mb-3">
+      <h2 class="card-title">man</h2>
+      <h2 class="card-title"><i class="bi-cup-hot-fill"></i> Manager</h2>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">ID: man</li>
+      <li class="list-group-item">Email: <a href="mailto:mn">mn</a></li>
+      <li class="list-group-item">Office Number: mano</li>
+    </ul>
+  </div>
+</div>
+<div class="col-4">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body text-white bg-primary mb-3">
+      <h2 class="card-title">engname</h2>
+      <h2 class="card-title"><i class="bi-eyeglasses"></i> Engineer</h2>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">ID: engid</li>
+      <li class="list-group-item">Email: <a href="mailto:ende">ende</a></li>
+      <li class="list-group-item">GitHub: engg</li>
+    </ul>
+  </div>
+</div>
+<div class="col-4">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body text-white bg-primary mb-3">
+      <h2 class="card-title">intn</h2>
+      <h2 class="card-title"><i class="bi-mortarboard-fill"></i> Intern</h2>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">ID: inti</li>
+      <li class="list-group-item">Email: <a href="mailto:inte">inte</a></li>
+      <li class="list-group-item">School: ints</li>
+    </ul>
+  </div>
+</div>

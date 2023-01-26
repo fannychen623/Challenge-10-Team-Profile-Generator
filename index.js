@@ -1,5 +1,5 @@
 // define local package used to generate profile
-const profileGenerator = require("./lib/Employee");
+const Profile = require("./lib/Employee");
 
 // initialize a new profile
 const profile = new Profile();
