@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const htmlTemp = ({profileContent}) =>
+const htmlTemp = (profileContent) =>
   `<!DOCTYPE html>
   <html lang="en">
     <!-- link local assets, stylesheet cdn's (bootstrap), and define the title -->
@@ -34,9 +34,8 @@ const htmlTemp = ({profileContent}) =>
 
 class generateProfile {
   createPage() {
-    const profileContent = fs.readFileSync('profileContent.txt', 'utf8');
-    const htmlContent = htmlTemp(profileContent);
-
+    const profileData = fs.readFileSync(__dirname + '/profileContent.txt', 'utf8')
+    const htmlContent = htmlTemp(profileData);
     // write/create the "sampleREADME.md" file and output message upon completion or error
     fs.writeFile(__dirname + '/../dist/sampleindex.html', htmlContent, (err) =>
       err ? console.log(err) : console.log('Successfully created Team Profile!')
