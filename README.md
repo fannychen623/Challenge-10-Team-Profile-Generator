@@ -1,24 +1,42 @@
 
 # Module 10 Challenge - Team Profile Generator
 
->**Application Video:** [Team Profile Generator](https://drive.google.com/)
+>**Application Video:** [Team Profile Generator](https://drive.google.com/file/d/1fFqnVi-79e8fnVWCnJNRlEjvjt7Qe_yY/view)
 >
->**View:** [Description](#description) / [Application Details](#application-details) / [Application Sample README File](#application-sample-file)
+>**View:** [Description](#description) / [Application Details](#application-details) / [Application Sample Profile Page](#application-sample-file)
 >
 >**Application Preview:**
 >
->![Team Profile Generator](/assets/ "Team Profile Generator")
+>![Team Profile Generator](/assets/Team%20Profile%20Generator.gif "Team Profile Generator")
 > 
->![Terminal Output](/assets/ "Terminal Output")
+>**Terminal Output Preview:**
+>
+>![Terminal Output](/assets/terminalOutput.png "Terminal Output")
+> 
+>![Terminal Output](/assets/testTerminal.png "Terminal Output")
 > 
 
 ## **DESCRIPTION**
 > Topic Assessed: **Node.js** - **Object-Oriented Programming (OOP), Test-Driven Coding (jest)**
 ### **My Task**
 *Team Profile Generator* allows a user to use node to automate the process of generating a team profile HTML.
-> Install dependencies to run the application.
+> Create the application from scratch.
 > 
+> Create package.json file detailing required dependencies to run the application.
+> 
+> Create index.js file to launch application file.
+>
+> Organize directories in accordance with standard format (root, lib, dist, src, tests, assets).
+>
+> Create individual class for Employee, Manager, Engineer, and Intern.
+>
 > Use inquirer to ask a series of prompts to collect data.
+> 
+> Create template for html file and profile cards to be populated with the collected data.
+> 
+> Create style.css file for the html.
+> 
+> Create separate test files for each class: Employee, Manager, Engineer, and Intern.
 > 
 ## User Story
 ```
@@ -139,4 +157,5 @@ THEN I exit the application, and the HTML is generated
 
 ## **APPLICATION SAMPLE FILE**
 ### Sample HTML Page
->![Sample HTML Page](./assets/ "Sample HTML Page")
+>![Sample HTML Page](./assets/profilePage.png "Sample HTML Page")
+>![Sample HTML Page](./assets/sampleHTML.png "Sample HTML Page")
