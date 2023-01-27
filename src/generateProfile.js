@@ -1,5 +1,7 @@
+// define the packages needed for the application
 const fs = require('fs');
 
+// template for the HTML file to be generated
 const htmlTemp = (profileContent) =>
   `<!DOCTYPE html>
   <html lang="en">
@@ -32,15 +34,21 @@ const htmlTemp = (profileContent) =>
     </body>
   </html>`;
 
+// define the class to be exported
 class generateProfile {
+  // create the html file
   createPage() {
+    // read the profile content txt file and set the data
     const profileData = fs.readFileSync(__dirname + '/profileContent.txt', 'utf8')
+    // populate the html template with the read data from the profile content txt
     const htmlContent = htmlTemp(profileData);
-    // write/create the "sampleREADME.md" file and output message upon completion or error
+    // write/create the 'index.html' file in the dist folder with the html content
+    // output message upon completion or error
     fs.writeFile(__dirname + '/../dist/index.html', htmlContent, (err) =>
       err ? console.log(err) : console.log('Successfully created Team Profile!')
     );
   };
 };
 
+// export the class
 module.exports = generateProfile;
