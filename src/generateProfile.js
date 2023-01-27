@@ -37,7 +37,7 @@ class generateProfile {
     const profileData = fs.readFileSync(__dirname + '/profileContent.txt', 'utf8')
     const htmlContent = htmlTemp(profileData);
     // write/create the "sampleREADME.md" file and output message upon completion or error
-    fs.writeFile(__dirname + '/../dist/sampleindex.html', htmlContent, (err) =>
+    fs.writeFile(__dirname + '/../dist/index.html', htmlContent, (err) =>
       err ? console.log(err) : console.log('Successfully created Team Profile!')
     );
   };

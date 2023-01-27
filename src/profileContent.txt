@@ -1,65 +1,13 @@
 <div class="col-4">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-white bg-primary mb-3">
-      <h2 class="card-title">michael</h2>
-      <h2 class="card-title"><i class="bi-cup-hot-fill"></i> Manager</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">ID: 1045</li>
-      <li class="list-group-item">Email: <a href="mailto:mich@gmail.com">mich@gmail.com</a></li>
-      <li class="list-group-item">Office Number: 31</li>
-    </ul>
-  </div>
-</div>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-white bg-primary mb-3">
-      <h2 class="card-title">Sam</h2>
-      <h2 class="card-title"><i class="bi-eyeglasses"></i> Engineer</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">ID: 20345</li>
-      <li class="list-group-item">Email: <a href="mailto:sam@gmail.com">sam@gmail.com</a></li>
-      <li class="list-group-item">GitHub: samul</li>
-    </ul>
-  </div>
-</div>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-white bg-primary mb-3">
-      <h2 class="card-title">jacky</h2>
-      <h2 class="card-title"><i class="bi-mortarboard-fill"></i> Intern</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">ID: 10456</li>
-      <li class="list-group-item">Email: <a href="mailto:jack@gmail.com">jack@gmail.com</a></li>
-      <li class="list-group-item">School: havard</li>
-    </ul>
-  </div>
-</div>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-white bg-primary mb-3">
-      <h2 class="card-title">tommy</h2>
-      <h2 class="card-title"><i class="bi-eyeglasses"></i> Engineer</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">ID: 40567</li>
-      <li class="list-group-item">Email: <a href="mailto:tom@gmail.com">tom@gmail.com</a></li>
-      <li class="list-group-item">GitHub: tomy</li>
-    </ul>
-  </div>
-</div>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body text-white bg-primary mb-3">
-      <h2 class="card-title">justin</h2>
-      <h2 class="card-title"><i class="bi-mortarboard-fill"></i> Intern</h2>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">ID: 43672</li>
-      <li class="list-group-item">Email: <a href="mailto:jus@gmail.com">jus@gmail.com</a></li>
-      <li class="list-group-item">School: columbia</li>
-    </ul>
-  </div>
-</div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-white bg-primary mb-3">
+            <h2 class="card-title">npm test --detectOpenHandles -- Employee.test.js</h2>
+            <h2 class="card-title"><i class="bi-cup-hot-fill"></i> Manager</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">ID: man</li>
+            <li class="list-group-item">Email: <a href="mailto:ema">ema</a></li>
+            <li class="list-group-item">Office Number: 21</li>
+          </ul>
+        </div>
+      </div>
